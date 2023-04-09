@@ -1,6 +1,6 @@
 # Python learning
 
-Нужные ссылки с заданиями:
+Нужные ссылки с заданиями:<br>
 <a href="https://tproger.ru/problems/python-3-exercises-for-beginners-geekbrains/">itproger</a><br>
 <a href="https://smartiqa.ru/courses/python/answer-key">smartiqa</a><br>
 <a href="https://pythonworld.ru/osnovy/tasks.html">pythonworld</a><br>
