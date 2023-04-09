@@ -170,7 +170,7 @@ SELECT coalesce(
 SELECT sum(coalesce(age, 20)) FROM customers
 ```
 
-#### Keywords - BETWEEN AND
+#### Keyword - BETWEEN AND
 
 - `BETWEEN AND` - между какиеми то отрезками, используются с числами
 
@@ -187,4 +187,43 @@ SELECT * FROM customers
 WHERE age >= 20 AND age <= 40
 ```
 
-#### Keywords - IN
+#### Keyword - IN
+
+- `IN ()` - можно использовать вместо равно(=) с `OR`. Может содержать один или больше элементов
+
+```sql
+SELECT * FROM employees
+WHERE emp_no IN (100001, 100006, 100007);
+
+SELECT * FROM employees
+WHERE emp_no = 100001 OR emp_no = 100006 OR emp_no = 100007;
+```
+
+#### Keyword - LIKE
+
+- `LIKE` - используется с `%`, которое указывает форму с чего должно начинаться элемент или иметь, заканчиваться
+
+Patterns:
+
+- `%` - Любые значении с любым количеством в нем
+- `_` - только один элемент, сколько используется столько и будет элементов
+
+```sql
+-- Тут мы ищем элементы где имя должно начинаться с буквы `M`
+SELECT first_name FROM employees
+WHERE first_name LIKE 'M%'
+```
+
+#### Dates and Timezones
+
+#### Timestamps
+
+#### Keyword - LIKE
+
+#### Keyword - LIKE
+
+#### Keyword - LIKE
+
+#### Keyword - LIKE
+
+#### Keyword - LIKE
