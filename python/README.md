@@ -1,9 +1,9 @@
 # Python learning
 
 Нужные ссылки с заданиями:
-<a href="https://tproger.ru/problems/python-3-exercises-for-beginners-geekbrains/">itproger</a>
-<a href="https://smartiqa.ru/courses/python/answer-key">smartiqa</a>
-<a href="https://pythonworld.ru/osnovy/tasks.html">pythonworld</a>
+<a href="https://tproger.ru/problems/python-3-exercises-for-beginners-geekbrains/">itproger</a><br>
+<a href="https://smartiqa.ru/courses/python/answer-key">smartiqa</a><br>
+<a href="https://pythonworld.ru/osnovy/tasks.html">pythonworld</a><br>
 
 ## 1. Syntax (Синтаксис)
 
